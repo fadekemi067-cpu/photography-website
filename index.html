@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fdk_og Photography</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation bar -->
+  <header> 
+<nav class="navbar">
+  <a href="#home" class="logo">FDK_OG PHOTOGRAPHY</a>
+
+  <button
+    class="menu-toggle"
+    aria-label="Open navigation menu"
+    aria-expanded="false"
+    aria-controls="nav-links"
+  >
+    ☰
+  </button>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#services">Services</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <!-- Main introduction -->
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">PHOTOGRAPHY • ART • STORIES</p>
+
+      <h1>Moments worth remembering.</h1>
+
+      <p class="hero-text">
+        Thoughtfully captured.
+        Beautifully preserved.
+      </p>
+
+      <a href="#portfolio" class="hero-button">
+        EXPLORE MY WORK
+      </a>
+    </section>
+
+    <!-- Portfolio section -->
+    
+<section id="portfolio" class="portfolio">
+  <p class="section-label">A FEW OF MY FAVOURITES</p>
+
+  <h2>Selected Work</h2>
+
+  <p class="portfolio-intro">
+    A collection of moments captured through my lens.
+  </p>
+
+  <div class="gallery">
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+        alt="Studio portrait of a woman"
+      >
+      <div class="photo-info">
+        <h3>Portraits</h3>
+        <p>People & personalities</p>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+        alt="Romantic wedding photography"
+      >
+      <div class="photo-info">
+        <h3>Love Stories</h3>
+        <p>Weddings & celebrations</p>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=80"
+        alt="Fashion editorial photography"
+      >
+      <div class="photo-info">
+        <h3>Editorial</h3>
+        <p>Fashion & creative work</p>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+        alt="Natural light portrait"
+      >
+      <div class="photo-info">
+        <h3>Natural Beauty</h3>
+        <p>Authentic moments</p>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80"
+        alt="Contemporary fashion portrait"
+      >
+      <div class="photo-info">
+        <h3>Fashion</h3>
+        <p>Style & expression</p>
+      </div>
+    </div>
+
+    <div class="photo-card">
+      <img
+        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+        alt="Red trainer photographed as a product"
+      >
+      <div class="photo-info">
+        <h3>Product Stories</h3>
+        <p>Brands & details</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+      <h2>Behind the Lens</h2>
+      <p>
+        I believe every photograph tells a story.
+        My goal is to capture yours with creativity,
+        intention and attention to detail.
+      </p>
+    </section>
+<!-- Services section -->
+<section id="services" class="services">
+  <p class="section-label">WHAT I OFFER</p>
+  <h2>Photography Services</h2>
+
+  <p class="section-intro">
+    Thoughtfully captured moments, beautifully preserved.
+  </p>
+
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Portrait Photography</h3>
+      <p>Portraits that express your personality and style.</p>
+      <p class="price">Enquire for pricing</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Event Photography</h3>
+      <p>Beautiful coverage of your special occasions.</p>
+      <p class="price">Enquire for pricing</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Brand Photography</h3>
+      <p>Images that tell your brand's unique story.</p>
+      <p class="price">Enquire for pricing</p>
+    </div>
+  </div>
+</section>
+    <!-- Contact section -->
+<footer class="site-footer" id="contact">
+  <div class="footer-content">
+    <p class="footer-brand">Fdk_og Photography</p>
+
+    <h2>Let's create something beautiful.</h2>
+
+    <p>
+      Have a project in mind? I'd love to hear about it.
+    </p>
+
+
+<!-- Contact form -->
+<form
+  class="contact-form"
+  action="https://formspree.io/f/mnpjdylk"
+  method="POST"
+>
+  <label for="client-name">Your name</label>
+  <input
+    type="text"
+    id="client-name"
+    name="name"
+    required
+  >
+
+  <label for="client-email">Email address</label>
+  <input
+    type="email"
+    id="client-email"
+    name="email"
+    required
+  >
+
+  <label for="service-type">Photography service</label>
+  <select id="service-type" name="service" required>
+    <option value="">Choose a service</option>
+    <option value="Portrait Photography">Portrait Photography</option>
+    <option value="Event Photography">Event Photography</option>
+    <option value="Brand Photography">Brand Photography</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <label for="client-message">Tell me about your project</label>
+  <textarea
+    id="client-message"
+    name="message"
+    rows="5"
+    required
+  ></textarea>
+
+  <button type="submit">Send Enquiry</button>
+</form>
+
+<!-- Email contact link -->
+<a
+  href="mailto:fdkog.bookings@gmail.com"
+  class="footer-email"
+>
+  Get in touch
+</a>
+
+    <div class="social-links">
+      <a
+        href="https://www.instagram.com/fdk_og/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Instagram
+      </a>
+
+      <a
+        href="https://www.tiktok.com/@fdkphotos"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        TikTok
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Fdk_og Photography. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+  </main>
+
+<!-- Photography lightbox -->
+<div
+  class="lightbox"
+  id="lightbox"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Enlarged photograph"
+  aria-hidden="true"
+>
+  <button class="lightbox-close" aria-label="Close photograph">
+    &times;
+  </button>
+
+  <img id="lightbox-image" src="" alt="">
+
+  <p id="lightbox-caption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
